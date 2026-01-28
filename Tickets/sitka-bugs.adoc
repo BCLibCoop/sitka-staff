@@ -11,11 +11,11 @@ Bugs are tracked separately from other support requests.
 . Include descriptive subject line.
 . Add appropriate tags
 . Search RT for existing tickets - link or merge as appropriate
-. Search Launchpad for Bug -
-. If no existing bug, create one
-. If there is an existing bug - Select "This bug affects you"
-. Add launchpad bug # to RT Ticket
-. If indicated on Launch pad - include expected release in RT Ticket
+. Search https://bugs.launchpad.net/evergreen[Launchpad] for an existing bug.
+.. If there is an existing bug - Select "This bug affects you"
+.. If no existing bug, xref:_reporting_a_bug[report the bug].
+. Add Launchpad bug # to RT ticket
+. If indicated on Launchpad - include expected release in RT Ticket
 . Move to Sitka Bugs Queue
 . Set ticket priority
   .. Low = 1 library request, or obscure feature (may be related to workflow, or library process)
@@ -23,7 +23,7 @@ Bugs are tracked separately from other support requests.
   .. High = +1 library request, Interrupts workflow, or is a bug that requires significant development to resolve.
   .. Urgent - important or essential feature lost through upgrade
 . Email library to advise issue has been put in feature request queue
-. Include information about status (Launch pad / Sitka Development work)
+. Include information about status (Launchpad / Sitka Development work)
 
 
 Must have a Launchpad Bug #
@@ -35,5 +35,7 @@ Must have a Bug Tag
 * Test in 3.next = fix committed upstream - needs to be tested on Sitka’s Evergreen test server
 * Fixed in 3.next = tested and confirmed fixed on Sitka’s Evergreen test server
 
-
-NOTE: There should only be one ticket for each bug - duplicate tickets (other tickets regarding this issue should be linked & resolved with resolution = upstream)
+[NOTE]
+======
+There should only be one ticket for each bug - duplicate tickets (other tickets regarding this issue) should be linked & resolved with resolution = upstream.
+======
