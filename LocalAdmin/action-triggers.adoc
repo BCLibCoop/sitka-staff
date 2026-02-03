@@ -81,6 +81,20 @@ checkin with missing pieces, recall *do not* use the opt_in_setting.
 
 NOTE: Depending on the trigger, the Processing Delay will be calculated differently. For example, triggers acting on an item due date count from 23:59 on the date something is due, while user account expiry counts from 00:00 on the date of account expiry.
 
+Headers and Macros
+^^^^^^^^^^^^^^^^^^
+
+If the template contains macros [% xxxxx -%] you must make sure to include the qualifiying information before the macros
+
+Example: macro = [% real_short %]
+
+[%- real_short = lib.shortname -%]
+[%- IF (lib.ou_type == 5 || lib.ou_type == 6 || lib.ou_type == 7 || lib.ou_type == 8) && lib.shortname != 'VOMB' && lib.shortname != 'BSE' && lib.shortname != 'BGI' -%]
+[%- real_short = lib.parent_ou.shortname -%]
+[%- END -%]
+ 
+You can log into your account here:
+https://[% real_short %].[% lib.mailing_address.state %].catalogue.libraries.coop/eg/opac/login?notice=P3D
 
 Auto to Lost Triggers
 ~~~~~~~~~~~~~~~~~~~~~
@@ -153,18 +167,6 @@ staff client.  This means that inactive auto to lost triggers can't just be turn
 be referred to Tier2 Support.
 =========
 
+Editing the Auto to Lost Trigger
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Headers and Macros
-^^^^^^^^^^^^^^^^^^
-
-If the template contains macros [% xxxxx -%] you must make sure to include the qualifiying information before the macros
-
-Example: macro = [% real_short %]
-
-[%- real_short = lib.shortname -%]
-[%- IF (lib.ou_type == 5 || lib.ou_type == 6 || lib.ou_type == 7 || lib.ou_type == 8) && lib.shortname != 'VOMB' && lib.shortname != 'BSE' && lib.shortname != 'BGI' -%]
-[%- real_short = lib.parent_ou.shortname -%]
-[%- END -%]
- 
-You can log into your account here:
-https://[% real_short %].[% lib.mailing_address.state %].catalogue.libraries.coop/eg/opac/login?notice=P3D
