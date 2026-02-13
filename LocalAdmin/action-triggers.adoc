@@ -118,8 +118,6 @@ Setting Up the Email Notification
 Setting Up the Auto to Lost Trigger
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Clone the Sitka Action Trigger
-
 . Go to *Administration -> Local Administration -> Notification/Action Triggers.*
 . Click *New Event Definition*.
 . Enter the following information:
@@ -138,6 +136,11 @@ Clone the Sitka Action Trigger
 .. Context Item Path: target_copy
 .. Context Library Path: circ_lib
 .. Context User Path: usr
+. Click *Save*.
+. Find the newly created A/T -> Edit Event Definition
+. Choose Edit Paramaters tab -> Click *New Parameter*
+.. Parameter Name : editor
+.. Parameter Value : 0
 . Click *Save*.
 
 
