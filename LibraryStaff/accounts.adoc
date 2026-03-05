@@ -133,11 +133,12 @@ Note: Brian has taken over most SIP / PatronAPI account creation, but the follow
 Evergreen Self Check
 ~~~~~~~~~~~~~~~~~~~~
 
-
-
 .Create an Evergreen Self Check account
 . Log in to Evergreen using a workstation registered to the requestors home library
 . Go to *Circulation -> Register Patron*
-.. create a user with profile "Self Check Login" and barcode/username of the form shortnameselfcheck.
-.. Use a password generator to create a secure 16 digit alphanumeric password.
+.. create a user with profile using one of the Self Check profile groups and barcode/username of the form shortnameselfcheck.
+... Use "BC Pub Self Check Login" for all BC Public Libraries
+... Use "Self Check Login" for any other library
+.. Enter a temporary password in the account.
+. Use the library's email address in the account so they can do a password reset.
 . Record the account information on the wiki https://wiki.libraries.coop/doku.php?id=sitka:support:self_check
