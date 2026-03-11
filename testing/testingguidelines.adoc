@@ -63,7 +63,7 @@ When an issue is identified:
   .. What were you doing? What did you expect to happen? What actually happened? How does it differ from the 
   current behaviour on the production server?
 . Include screenshots.
-. Attempt to replicate the issue on a Sitka upstream server or an Evergreen community test server running the same 
+. Attempt to replicate the issue on a Sitka upstream server - https://wiki.libraries.coop/doku.php?id=sitka:testing_server_info or an Evergreen community test server - https://wiki.evergreen-ils.org/doku.php?id=community_servers running the same 
 version of Evergreen.
   .. If it can be replicated it's an upstream bug and needs to be xref::_reporting_a_bug[reported to Launchpad].
 
