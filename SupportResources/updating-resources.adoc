@@ -8,13 +8,16 @@ Tier 1 Resource Tasks
 
 Tier 1 should:
 
-* correct obvious typos found in the Sitka, Acquisitions, and Policy manuals
-* correct obvious formatting issues found in the Sitka, Acquisitions, and Policy manuals
+* correct obvious typos found in the https://docs.libraries.coop/sitka/[Sitka], 
+https://docs.libraries.coop/acquisitions/[Acquisitions], and https://docs.libraries.coop/policy/[Policy] manuals
+* correct obvious formatting issues found in the https://docs.libraries.coop/sitka/[Sitka], 
+https://docs.libraries.coop/acquisitions/[Acquisitions], and https://docs.libraries.coop/policy/[Policy]y manuals
 * update documentation sections as assigned
 * xref:_reporting_issues_with_resources[report] any documentation that is outdated or contains incorrect information and is beyond the scope of what they have 
 been assigned to correct or update themselves
 * xref:_reporting_issues_with_resources[report] any links that are broken in any Co-op Support resource
-* xref:_reporting_issues_with_resources[report] any other resources, such as FAQs and videos, that are outdated or contain incorrect information.
+* xref:_reporting_issues_with_resources[report] any other resources, such as https://bc.libraries.coop/sitka-faqs/[FAQs] 
+and https://www.youtube.com/channel/UCiMYBCQG4QJVT-B3Ruk0Ncg/[videos], that are outdated or contain incorrect information.
 
 Reporting Issues With Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
