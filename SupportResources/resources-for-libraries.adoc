@@ -1,0 +1,12 @@
+Current Resources for Libraries
+-------------------------------
+
+* https://docs.libraries.coop/sitka/[Sitka's Evergreen Documentation]
+* https://docs.libraries.coop/acquisitions/[Sitka's Acquisitions Documentation]
+* https://docs.libraries.coop/policy/[Sitka's Evergreen Policy & Best Practices Manual]
+* https://help.libraries.coop/getting-started/[Getting Started with Sitka's Evergreen]
+* https://help.libraries.coop/catalogue/[Library Catalogue Help]
+* https://help.libraries.coop/welcome/[Welcome to the BC Libraries Cooperative]
+* https://bc.libraries.coop/sitka-faqs/[Sitka FAQs]
+* https://www.youtube.com/channel/UCiMYBCQG4QJVT-B3Ruk0Ncg/[Sitka Videos]
+

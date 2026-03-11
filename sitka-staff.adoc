@@ -58,10 +58,15 @@ include::ServerAdmin/hard-due-dates.adoc[]
 
 include::LocalAdmin/emergency-closing.adoc[]
 
-Creating Support Resources
-==========================
+Support Resources for Libraries
+===============================
 
-include::Creatingresources/sitka-style-guide.adoc[]
+include::SupportResources/resources-for-libraries.adoc[]
+
+include::SupportResources/updating-resources.adoc[]
+
+include::SupportResources/resources-for-support.adoc[]
+
 
 Public Catalogue
 ================

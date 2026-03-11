@@ -1,0 +1,35 @@
+Updating Resources
+------------------
+
+Co-op Support's resources for libraries are constantly being being updated and expanded.
+
+Tier 1 Resource Tasks
+~~~~~~~~~~~~~~~~~~~~~
+
+Tier 1 should:
+
+* correct obvious typos found in the Sitka, Acquisitions, and Policy manuals
+* correct obvious formatting issues found in the Sitka, Acquisitions, and Policy manuals
+* update documentation sections as assigned
+* report any documentation that is outdated or contains incorrect information and is beyond the scope of what they have 
+been assigned to correct or update themselves
+* report any links that are broken in any Co-op Support resource
+* report any other resources, such as FAQs and videos, that are outdated or contain incorrect information.
+
+Reporting Issues With Resources
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Co-op Support strives to keep our documentation up to date. 
+
+Outdated or incorrect content and screenshots found in any of our manuals or other resources should be reported so 
+that it can be fixed.
+
+. Go to the *Support Docs* plan in Planner.
+. Create a task in the appropriate bucket.
+.. Task Name = name of the doc section, video, FAQ
+.. Labels = add the appropriate labels
+.. Notes = add a link to the existing documentation and an explanation of what the issue is
+.. Assign to the appropriate staff member
+. Click the close button (X).
+. The assigned staff member will be alerted that the task has been assigned to them.
+
