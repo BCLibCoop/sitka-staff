@@ -11,10 +11,10 @@ Tier 1 should:
 * correct obvious typos found in the Sitka, Acquisitions, and Policy manuals
 * correct obvious formatting issues found in the Sitka, Acquisitions, and Policy manuals
 * update documentation sections as assigned
-* report any documentation that is outdated or contains incorrect information and is beyond the scope of what they have 
+* xref:_reporting_issues_with_resources[report] any documentation that is outdated or contains incorrect information and is beyond the scope of what they have 
 been assigned to correct or update themselves
-* report any links that are broken in any Co-op Support resource
-* report any other resources, such as FAQs and videos, that are outdated or contain incorrect information.
+* xref:_reporting_issues_with_resources[report] any links that are broken in any Co-op Support resource
+* xref:_reporting_issues_with_resources[report] any other resources, such as FAQs and videos, that are outdated or contain incorrect information.
 
 Reporting Issues With Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
