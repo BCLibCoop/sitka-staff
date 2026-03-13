@@ -11,7 +11,7 @@ Tier 1 should:
 * correct obvious typos found in the https://docs.libraries.coop/sitka/[Sitka], 
 https://docs.libraries.coop/acquisitions/[Acquisitions], and https://docs.libraries.coop/policy/[Policy] manuals
 * correct obvious formatting issues found in the https://docs.libraries.coop/sitka/[Sitka], 
-https://docs.libraries.coop/acquisitions/[Acquisitions], and https://docs.libraries.coop/policy/[Policy]y manuals
+https://docs.libraries.coop/acquisitions/[Acquisitions], and https://docs.libraries.coop/policy/[Policy] manuals
 * update documentation sections as assigned
 * xref:_reporting_issues_with_resources[report] any documentation that is outdated or contains incorrect information and is beyond the scope of what they have 
 been assigned to correct or update themselves
