@@ -1,8 +1,8 @@
 Organizational Units
 --------------------
 
-Changing an Organizations Name
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Changing an Organization's Name
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . Go to Server Administration -> Organizational Units.
 . Find the org unit in the tree.
