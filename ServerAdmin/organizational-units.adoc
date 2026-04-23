@@ -10,15 +10,15 @@ Changing an Organizations Name
 . Click *Save*.
 . Ask a tech to restart applicable services during a maintenance window.
 
-[[CAUTION]]
-===========
+[CAUTION]
+=========
 Changing the name of an organizational unit may affect authentication for 3rd party services.
 
 If a library uses any of the following 3rd party services, those services will need to be notified
 of the name change:
+
 * Biblicommons
 * Overdrive
 
-===========
-
+=========
 
