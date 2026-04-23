@@ -1,16 +1,14 @@
 Action Triggers
 ---------------
 
-http://docs.libraries.coop/sitka/admin-notice.html[Patron Notifications]
-
-https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:name_trigger[Action Trigger info from Wiki]
-
-Action Trigger templates are used in various system processes.
+Action triggers enable Evergreen to perform actions and send notifications based 
+on the information in the templates .
 
 .Action Triggers are used for
 * Some Print functions
-* Automatically set overdue items to Lost
-* Patron Email Notifications
+* xref:_auto_to_lost_triggers[Automatically setting overdue items to Lost]
+* https://docs.libraries.coop/sitka/_patron_notifications.html[Patron Email 
+Notifications]
 
 Some templates are set at the Sitka level and cannot be customized. Most templates are customizable per library.
 
@@ -27,8 +25,9 @@ Some templates are set at the Sitka level and cannot be customized. Most templat
 * Patron Account Notifications
 
 
-Edit Action Trigger Templates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Editing Action Trigger Templates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .Edit existing templates
 . Go to *Administration -> Local Administration -> Notification/Action Triggers.*
@@ -38,8 +37,8 @@ Edit Action Trigger Templates
 . Click *Save.*
 
 
-Clone Action Trigger Templates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cloning Action Trigger Templates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .Clone existing templates
 . Go to *Administration -> Local Administration -> Notification/Action Triggers.*
@@ -51,6 +50,28 @@ Clone Action Trigger Templates
 . Modify the template as needed.
 . Click *Save*
 
+Naming Action Trigger Templates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Action triggers should follow the below naming patterns. This ensures that 
+old triggered events and output can be correctly identified by event_def name 
+to be deleted.
+
+[options="header"]
+|===
+|Notice Type | Name Pattern
+|pre-due |XXX 3 Day Courtesy Notice
+|overdue |XXX n Day Overdue Notice 
+|overdue mark lost |XXX m Day Overdue Mark Lost 
+|hold email |XXX Hold Ready for Pickup Email Notification 
+|checkout receipt email |XXX Checkout Email Receipt
+|hold cancelled by staff |XXX Holds Cancelled by Staff Email Notice
+|shelf expired hold cancelled |XXX Shelf Expired Holds Cancelled Email Notice
+|===
+
+_XXX is a library's shortname, n & m are integers_
+
+More information can be found on the https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:name_trigger[wiki name_trigger page]
 
 Other info
 ~~~~~~~~~~
