@@ -58,6 +58,8 @@ include::ServerAdmin/hard-due-dates.adoc[]
 
 include::LocalAdmin/emergency-closing.adoc[]
 
+include::ServerAdmin/organizational-units.adoc[]
+
 Support Resources for Libraries
 ===============================
 

@@ -1,0 +1,24 @@
+Organizational Units
+--------------------
+
+Changing an Organizations Name
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Go to Server Administration -> Organizational Units.
+. Find the org unit in the tree.
+. Update the value in the _Name_.
+. Click *Save*.
+. Ask a tech to restart applicable services during a maintenance window.
+
+[[CAUTION]]
+===========
+Changing the name of an organizational unit may affect authentication for 3rd party services.
+
+If a library uses any of the following 3rd party services, those services will need to be notified
+of the name change:
+* Biblicommons
+* Overdrive
+
+===========
+
+
