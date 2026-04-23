@@ -2,7 +2,7 @@ Action Triggers
 ---------------
 
 Action triggers enable Evergreen to perform actions and send notifications based 
-on the information in the templates .
+on the information in the templates.
 
 .Action Triggers are used for
 * Some Print functions
