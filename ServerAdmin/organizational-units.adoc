@@ -1,6 +1,9 @@
 Organizational Units
 --------------------
 
+https://bc.libraries.coop/ufaqs/what-do-i-need-to-do-to-add-a-new-branch-bookmobile-or-book-locker-for-my-library/
+
+
 Changing an Organization's Name
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -19,6 +22,8 @@ of the name change:
 
 * Biblicommons
 * Overdrive
+* ULS / Other Acquisitions vendors
 
 =========
 
+More info on the wiki - https://wiki.libraries.coop/sitka/support/ad_hoc_request/orgunit
