@@ -12,7 +12,8 @@ Tier 1 should:
 https://docs.libraries.coop/acquisitions/[Acquisitions], and https://docs.libraries.coop/policy/[Policy] manuals
 * correct obvious formatting issues found in the https://docs.libraries.coop/sitka/[Sitka], 
 https://docs.libraries.coop/acquisitions/[Acquisitions], and https://docs.libraries.coop/policy/[Policy] manuals
-* update documentation sections as assigned
+* update documentation sections as assigned following 
+https://wiki.libraries.coop/sitka/support/creating_support_resources/style_guide[Sitka's Documentation Style Guide]
 * xref:_reporting_issues_with_resources[report] any documentation that is outdated or contains incorrect information and is beyond the scope of what they have 
 been assigned to correct or update themselves
 * xref:_reporting_issues_with_resources[report] any links that are broken in any Co-op Support resource
