@@ -34,7 +34,7 @@ Adding a branch, bookmobile, book locker, or other additional organizations unit
 the organizations structure. This involves a significant amount of work, especially when changing a standalone library
 into a system with multiple org units attached.
 
-When a library submits a ticket tha involves adding an org unit:
+When a library submits a ticket that involves adding an org unit:
 
 . Respond to the library and let them know there is a cost involved and a quote will be provided.
 . Alert Sharon to the library's request and the need for a quote.
