@@ -1,9 +1,6 @@
 Organizational Units
 --------------------
 
-https://bc.libraries.coop/ufaqs/what-do-i-need-to-do-to-add-a-new-branch-bookmobile-or-book-locker-for-my-library/
-
-
 Changing an Organization's Name
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -26,16 +23,40 @@ of the name change:
 
 =========
 
-More info on the wiki - https://wiki.libraries.coop/sitka/support/ad_hoc_request/orgunit
 
-////
 Changing an Organization's Structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a multi-branch library is adding a branch or a standalone library is adding a bookmobile or b
+https://bc.libraries.coop/ufaqs/what-do-i-need-to-do-to-add-a-new-branch-bookmobile-or-book-locker-for-my-library/[FAQ - What
+do I need to do to add a new branch, bookmobile, or book locker for my library?]
 
-contact Sharon - 
-link to wiki - 
-link to FAQ - 
-////
+Adding a branch, bookmobile, book locker, or other additional organizations unit to a library or system changes 
+the organizations structure. This involves a significant amount of work, especially when changing a stand-alone library
+into a system with multiple org units attached.
 
+When a library submits a ticket tha involves adding an org unit:
+
+. Respond to the library and let them know there is a cost involved and a quote will be provided.
+. Alert Sharon to the library's request and the need for a quote.
+. Once the library has confirmed they wish to go ahead with the change, confirm the names that will be used for the
+the new and existing org units and the date on which the new structure should go live.
+.. We require 4 weeks notice for a new branch or bookmobile. 
+.. For book lockers and other 3rd party products libraries should anticipate a 3 to 6 month turnaround to assess the 
+product and whether or not it compatible with Evergreen as per our 
+https://docs.libraries.coop/policy/_3rd_party_service_integration.html[3rd Party Service Integration policy].
+. Once we have the needed information assign the ticket to Tina. 
+https://wiki.libraries.coop/sitka/support/ad_hoc_request/orgunit[Information on the changes needed to Evergreen] 
+can be found on the wiki.
+
+[CAUTION]
+=========
+Changing the structure of an organizational unit may affect authentication for 3rd party services.
+
+If a library uses any of the following 3rd party services, those services will need to be notified of any changes to 
+the org unit names.
+
+* Biblicommons (also need the org unit IDs)
+* Overdrive
+* ULS / Other Acquisitions vendors
+
+=========
