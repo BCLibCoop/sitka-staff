@@ -12,7 +12,7 @@ Changing an Organization's Name
 
 [CAUTION]
 =========
-Changing the name of an organizational unit may affect authentication for 3rd party services.
+Changing the name of an organizational unit may affect 3rd party services.
 
 If a library uses any of the following 3rd party services, those services will need to be notified
 of the name change:
@@ -50,7 +50,7 @@ can be found on the wiki.
 
 [CAUTION]
 =========
-Changing the structure of an organizational unit may affect authentication for 3rd party services.
+Changing the structure of an organizational unit may affect 3rd party services.
 
 If a library uses any of the following 3rd party services, those services will need to be notified of any changes to 
 the org unit names.
