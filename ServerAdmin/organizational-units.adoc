@@ -31,7 +31,7 @@ https://bc.libraries.coop/ufaqs/what-do-i-need-to-do-to-add-a-new-branch-bookmob
 do I need to do to add a new branch, bookmobile, or book locker for my library?]
 
 Adding a branch, bookmobile, book locker, or other additional organizations unit to a library or system changes 
-the organizations structure. This involves a significant amount of work, especially when changing a stand-alone library
+the organizations structure. This involves a significant amount of work, especially when changing a standalone library
 into a system with multiple org units attached.
 
 When a library submits a ticket tha involves adding an org unit:
@@ -48,8 +48,18 @@ https://docs.libraries.coop/policy/_3rd_party_service_integration.html[3rd Party
 https://wiki.libraries.coop/sitka/support/ad_hoc_request/orgunit[Information on the changes needed to Evergreen] 
 can be found on the wiki.
 
+Public Catalogue Search Scope
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When a standalone library becomes a multi-branch library the search scope for their public catalogue will need
+to be updated to use the system org unit ID if the original library org unit has become a branch.
+
+The search scope for the LibPress search box will also need to be updated to match.
+
+
 [CAUTION]
 =========
+
 Changing the structure of an organizational unit may affect 3rd party services.
 
 If a library uses any of the following 3rd party services, those services will need to be notified of any changes to 
