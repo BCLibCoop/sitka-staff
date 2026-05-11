@@ -41,6 +41,29 @@ xref::_reporting_a_bug[report the issue to Launchpad].
 If you are unable to replicate the issue on a Sitka test server escalate the ticket to the Support Operations Lead. 
 ====
 
+Testing
+~~~~~~~
+
+. Use the general testing checklist as a guide. 
+. Test on the testing server and compare the behaviour with current documentation and the production server.
+. Record the results of your testing in the checklist.
+
+When an issue is identified:
+
+. Create an RT ticket in the Testing queue.
+. Link the RT ticket to the parent ticket for the specific testing project.
+. Report only one issue on a ticket.
+. Add any relevant EG-tags
+. Include the steps to take to replicate the issue.
+  .. Be as specific as possible describing your issue:
+  .. What were you doing? What did you expect to happen? What actually happened? How does it differ from the 
+  current behaviour on the production server?
+. Include screenshots.
+. Attempt to replicate the issue on an Evergreen community test server - https://wiki.evergreen-ils.org/doku.php?id=community_servers running the same 
+version of Evergreen.
+  .. If it can be replicated it's an upstream bug and needs to be xref::_reporting_a_bug[reported to Launchpad].
+
+
 
 Upgrade Testing
 ~~~~~~~~~~~~~~~
