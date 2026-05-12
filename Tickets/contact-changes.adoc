@@ -22,3 +22,11 @@ Website URL Change
 * Current Sitka Libraries - https://bc.libraries.coop/services/sitka/current-sitka-libraries/
 * Public Catalogue - Library Home link
 * Evergreen Paper Overdue notice template
+
+
+New Director
+~~~~~~~~~~~~
+
+. Notify Davide
+. Notify other services
+. Send link to getting started guide - https://help.libraries.coop/getting-started/

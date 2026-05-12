@@ -23,6 +23,8 @@ include::Tickets/sitka-bugs.adoc[]
 
 include::Tickets/contact-changes.adoc[]
 
+
+
 Phone Support
 =============
 
@@ -43,9 +45,9 @@ include::Tickets/paper-overdues.adoc[]
 
 include::LocalAdmin/permission-tree-display.adoc[]
 
-include::Tickets/shared-collection-updates.adoc[]
-
 include::LocalAdmin/annual-statistics.adoc[]
+
+include::Tickets/cataloguing-issues.adoc[]
 
 Tier 2 Support
 ==============
