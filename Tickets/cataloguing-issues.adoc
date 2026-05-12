@@ -1,0 +1,20 @@
+Cataloguing Issues
+------------------
+
+Sitka’s Cataloguing Policy defines the standards and best practices for cataloguing within the shared Sitka catalogue to ensure that all libraries are treating bibliographic records in the same manner when they are editing, creating, or adding records.
+
+All staff that perform cataloguing tasks at Sitka libraries are expected to familiarize themselves with this policy and commit to uphold it as they work with records in the Sitka catalogue.
+
+The goal is to have a database of high quality bibliographic records that are shared by all libraries. Ideally there is one MARC record in the database for each discrete bibliographic title which all libraries add their holdings to. All Sitka libraries must follow the same policies when editing MARC records to ensure that records accurately describe the items that are attached to them.
+
+https://docs.libraries.coop/policy/_cataloguing_policy.html
+
+
+If we are notified of bad cataloguing we must follow up with the offending library/cataloguer. 
+
+. Ask Tina for audit log 
+. Run SQL to find home library of the user - Jennifer/Christine
+. Create ticket to notify the offending library
+.. See RT articles for draft text
+. Check old server for original record
+. Manually update the old record
