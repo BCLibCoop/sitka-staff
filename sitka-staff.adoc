@@ -21,6 +21,8 @@ include::Tickets/feature-request.adoc[]
 
 include::Tickets/sitka-bugs.adoc[]
 
+include::Tickets/record-loading.adoc[]
+
 include::Tickets/contact-changes.adoc[]
 
 
