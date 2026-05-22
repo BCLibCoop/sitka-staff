@@ -1,0 +1,18 @@
+Record Loading
+--------------
+
+Tickets with bibliographic or patron records to be loaded
+
+.Process
+. Ticket is received
+. Move to Sitka Record Loading Queue
+. Set ticket priority = Low
+. Add Library tag
+. Add EG-Tags
+.. Bibliographic records = Cataloguing
+.. Patron records = Patron
+. Add Library main RT account to Requestor
+
+Patron records will be loaded daily
+
+Bibliographic records will be loaded on Wed & Friday
