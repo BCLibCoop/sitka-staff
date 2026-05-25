@@ -13,8 +13,12 @@ https://docs.libraries.coop/policy/_cataloguing_policy.html
 If we are notified of bad cataloguing we must follow up with the offending library/cataloguer. 
 
 . Ask Tina for audit log 
-. Run SQL to find home library of the user - Jennifer/Christine
-. Create ticket to notify the offending library
-.. See RT articles for draft text
-. Check old server for original record
-. Manually update the old record
+. Run SQL to find home library of the offending user - Jennifer/Christine
+. Create a new ticket to notify the offending library
+.. add refers to link to the original ticket
+.. include a link to cataloguing policy
+.. provide details about how the cataloguing policy was violated
+.. provide examples
+. Check one of the non-production servers for the original record
+. Manually update the changed record to match the original record
+
