@@ -1,7 +1,7 @@
 Batch Import Information
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-{NOTE]
+[NOTE]
 ======
 This content is originally from the Sitka Manual but included more information than an average user needed.  We need 
 to go through this and determine what information needs to be kept to Co-op Staff. It is expected that all the 
