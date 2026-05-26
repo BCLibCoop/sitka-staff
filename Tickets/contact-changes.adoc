@@ -1,4 +1,4 @@
-Tickets for contact Changes
+Tickets for Account Changes
 ---------------------------
 
 Email changes
@@ -29,4 +29,4 @@ New Director
 
 . Create ticket in Co-op web queue & assign to David 
 . Notify other services
-. Send link to getting started guide - https://help.libraries.coop/getting-started/
+. Send info from RT article #123
