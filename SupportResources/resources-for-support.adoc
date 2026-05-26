@@ -7,3 +7,5 @@ You must be logged into the wiki to access these resources.
 * https://wiki.libraries.coop/doku.php?id=sitka:support:creating_support_resources:style_guide[AsciiDoc Style Guide]
 * https://wiki.libraries.coop/doku.php?id=sitka:support:creating_support_resources:style_guide:consistent_wording[Consistent Wording]
 * https://wiki.libraries.coop/doku.php?id=cooperative:communications:visual_identity[Visual Identity]
+
+include::SupportResources/resources-for-support-batch-import.adoc[]
