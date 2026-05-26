@@ -112,10 +112,13 @@ If the template contains macros [% xxxxx -%] you must make sure to include the q
 
 Example: macro = [% real_short %]
 
+[source,html]
+----
 [%- real_short = lib.shortname -%]
 [%- IF (lib.ou_type == 5 || lib.ou_type == 6 || lib.ou_type == 7 || lib.ou_type == 8) && lib.shortname != 'VOMB' && lib.shortname != 'BSE' && lib.shortname != 'BGI' -%]
 [%- real_short = lib.parent_ou.shortname -%]
 [%- END -%]
+----
  
 You can log into your account here:
 https://[% real_short %].[% lib.mailing_address.state %].catalogue.libraries.coop/eg/opac/login?notice=P3D
