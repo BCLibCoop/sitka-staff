@@ -9,6 +9,8 @@ The goal is to have a database of high quality bibliographic records that are sh
 
 https://docs.libraries.coop/policy/_cataloguing_policy.html
 
+Bad Cataloguing
+~~~~~~~~~~~~~~~
 
 If we are notified of bad cataloguing we must follow up with the offending library/cataloguer. 
 
@@ -21,6 +23,9 @@ If we are notified of bad cataloguing we must follow up with the offending libra
 .. provide examples
 . Check one of the non-production servers for the original record
 . Manually update the changed record to match the original record
+
+Bad Record Merge
+~~~~~~~~~~~~~~~~
 
 If we are notified of a bad record merge
 
