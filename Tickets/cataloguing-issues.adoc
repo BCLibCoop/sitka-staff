@@ -29,8 +29,8 @@ Bad Record Merge
 
 If we are notified of a bad record merge
 
-. Check the lead record Record Notes tab to get the ID of records merged and the username of the person who did it.
-. Run SQL to find home library of the offending user - Jennifer/Christine
+. Check the lead record Record Notes tab to get the ID of records merged.
+. Ask Tina for audit log to determine what user merged the records.
 . Create a new ticket to notify the offending library
 .. add refers to link to the original ticket
 .. include a link to cataloguing policy
