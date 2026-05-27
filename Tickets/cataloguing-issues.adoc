@@ -33,3 +33,5 @@ If we are notified of a bad record merge
 .. provide examples
 . Undelete the merged records
 . Create separate tickets to notify any affected libraries that they will need to transfer their holdings back to the original record 
+.. add refers to link to the original ticket
+.. include link to instructions for transfering holdings
