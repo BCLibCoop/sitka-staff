@@ -17,10 +17,10 @@ If we are notified of bad cataloguing we must follow up with the offending libra
 . Ask Tina for audit log 
 . Run SQL to find home library of the offending user - Jennifer/Christine
 . Create a new ticket to notify the offending library
-.. add refers to link to the original ticket
-.. include a link to cataloguing policy
+.. link to original ticket (Refers to)
+.. in the message to the library, include a link to cataloguing policy
 .. provide details about how the cataloguing policy was violated
-.. provide examples
+.. provide specific examples
 . Check one of the non-production servers for the original record
 . Manually update the changed record to match the original record
 
@@ -32,11 +32,11 @@ If we are notified of a bad record merge
 . Check the lead record Record Notes tab to get the ID of records merged.
 . Ask Tina for audit log to determine what user merged the records.
 . Create a new ticket to notify the offending library
-.. add refers to link to the original ticket
-.. include a link to cataloguing policy
+.. link to original ticket (Refers to)
+.. in the message to the library, include a link to cataloguing policy
 .. provide details about how the cataloguing policy was violated
-.. provide examples
+.. provide specific examples
 . Undelete the merged records
 . Create separate tickets to notify any affected libraries that they will need to transfer their holdings back to the original record 
-.. add refers to link to the original ticket
-.. include link to instructions for transfering holdings
+.. link to original ticket (Refers to)
+.. in message to libraries, include link to instructions for transfering holdings
