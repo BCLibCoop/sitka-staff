@@ -6,7 +6,7 @@ Academic libraries may wish to use hard due dates to truncate due dates at the e
 Update Hard Due Date
 ~~~~~~~~~~~~~~~~~~~~
 
-When updating an existing hard due date rule you must update the ceiling date display and add a new hard due date value
+When updating an existing hard due date rule, you must update the ceiling date display and add a new hard due date value.
 
 .Edit Ceiling Date
 . Go to *Administration -> Server Administration -> Hard Due Date Changes.*
@@ -21,13 +21,13 @@ When updating an existing hard due date rule you must update the ceiling date di
 . Enter the *Ceiling Date*
 . Click *Save*
 
-NOTE: Libraries can submit all the hard due dates for the year.  Use the active/ceiling date to enter all the dates for fall, winter, and summer terms.
+NOTE: Libraries can submit all the hard due dates for the year. Use the active/ceiling date to enter all the dates for fall, winter, and summer terms.
 
 
 New Hard Due Date
 ~~~~~~~~~~~~~~~~~
 
-To setup a new hard due date you must create the new hard due date and then link it to the applicable circulation policies. 
+To set up a new hard due date, you must create the new hard due date and then link it to the applicable circulation policies. 
 
 .New Hard Due Date
 . Go to *Administration -> Server Administration -> Hard Due Date Changes.*
