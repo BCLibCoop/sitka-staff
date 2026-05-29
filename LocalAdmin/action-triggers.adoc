@@ -51,7 +51,7 @@ For example, line breaks need to be coded in (i.e. &lt;br /&gt;), otherwise the 
 
 Another issue is that hyperlinks will no longer automatically link unless they are updated with HTML, &lt;a href=&quot;URL&quot;&gt;linked text&lt;/a&gt;
 
-Additionally, https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references[numeric character references] must be used for some characters, e.g. if you want &lt; in the final notification, you must write &amp;lt&semi; in the template.
+Additionally, https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references[numeric character references] must be used for some characters, e.g. if you want &lt; in the final notification, you should write &amp;lt&semi; in the template.
 
 Here also is a reference of https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements#text_content[HTML text content elements].
 
@@ -82,7 +82,7 @@ To update your account we will need to verify your address, phone number and ema
 Sincerely,&lt;br /&gt;
 &lsqb;% lib.name %&rsqb;&lt;br /&gt;&lt;br /&gt;
 
-.Contact your library for more information:&lt;br /&gt;&lt;br /&gt;
+Contact your library for more information:&lt;br /&gt;&lt;br /&gt;
 &lsqb;% lib.name %&rsqb;&lt;br /&gt;
 &lsqb;%- SET addr = lib.mailing_address -%&rsqb;&lt;br /&gt; 
 &lsqb;%- IF !addr -%&rsqb; &lsqb;%- SET addr = lib.billing_address -%&rsqb; &lsqb;%- END %&rsqb;&lt;br /&gt;
