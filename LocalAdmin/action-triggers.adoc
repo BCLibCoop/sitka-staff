@@ -35,13 +35,19 @@ Editing Action Trigger Templates
 . Modify the template as needed.	
 . Click *Save.*
 
-.Update templates to HTML
 
-If the following code is included, notices will be sent as HTML:
+Update Action Trigger Templates to HTML
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.If the following code is included, notices will be sent as HTML:
 * Content-Type: text/html; charset="utf-8"
 
-Note that all content must be updated, particularly line breaks (i.e. &lt;br /&gt;), otherwise the text will be all stuck together on the same line. Another issue is that hyperlinks will no longer automatically link unless they are updated with HTML.
+.This is as oppossed to the default (non-HTML) code:
+* Content-Type: text/plain; charset="utf-8"
+
+Note that all template wording must be updated to HTML, otherwise the text will not present correctly.
+
+For example, line breaks need to be coded in (i.e. &lt;br /&gt;), otherwise the text will be all stuck together on the same line. Another issue is that hyperlinks will no longer automatically link unless they are updated with HTML, &lt;a href=&quot;hyperlink&quot;&gt;linked text&lt;/a&gt;
 
 Cloning Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
