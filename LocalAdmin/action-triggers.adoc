@@ -24,10 +24,6 @@ Some templates are set at the Sitka level and cannot be customized. Most templat
 * Hold Notifications
 * Patron Account Notifications
 
-Additionally, templates can be set so that HTML is enabled by ensuring the following code is included:
-
-* Content-Type: text/html; charset="utf-8"
-
 
 Editing Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -39,6 +35,13 @@ Editing Action Trigger Templates
 . Modify the template as needed.	
 . Click *Save.*
 
+.Update templates to HTML
+
+If the following code is included, notices will be sent as HTML:
+
+* Content-Type: text/html; charset="utf-8"
+
+Note that all content must be updated, particularly line breaks (i.e. &lt;br /&gt;), otherwise the text will be all stuck together on the same line. Another issue is that hyperlinks will no longer automatically link unless they are updated with HTML.
 
 Cloning Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
