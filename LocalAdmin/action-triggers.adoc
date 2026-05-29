@@ -47,7 +47,45 @@ Update Action Trigger Templates to HTML
 
 Note that all template wording must be updated to HTML, otherwise the text will not present correctly.
 
-For example, line breaks need to be coded in (i.e. &lt;br /&gt;), otherwise the text will be all stuck together on the same line. Another issue is that hyperlinks will no longer automatically link unless they are updated with HTML, &lt;a href=&quot;hyperlink&quot;&gt;linked text&lt;/a&gt;
+For example, line breaks need to be coded in (i.e. &lt;br /&gt;), otherwise the text will be all stuck together on the same line. Another issue is that hyperlinks will no longer automatically link unless they are updated with HTML, &lt;a href=&quot;URL&quot;&gt;linked text&lt;/a&gt;
+
+Additionally, https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references[numeric character references] must be used for some characters, e.g. if you want to the text display &lt; in the final notification, you must write &amp;lt&semi; in the template.
+
+Here also is a reference of https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements#text_content[HTML text content elements].
+
+.Tags known to work in action triggers include:
+* &lt;div&gt; (container for content) 
+* &lt;b&gt; (bold)
+* &lt;i&gt; (italicize)
+* &lt;a href&gt; (hyperlink)
+* &lt;ul&gt; and &lt;li&gt; (unordered list)
+* &lt;ol&gt; and &lt;li&gt; (ordered list)
+* &lt;img&gt; (embedded image)
+
+A div tag may be used to enclose the entire content of message. Here is an example of this in an email notification formatted in HTML:
+
+&lt;div&gt;&ast;&ast;&ast;This is an automated message.  Please do not reply to this email.&ast;&ast;&ast;&lt;br /&gt;&lt;br /&gt;
+
+Dear &lsqb;% user.pref_first_given_name || user.first_given_name %&rsqb; &lsqb;% user.pref_family_name || user.family_name %&rsqb;,&lt;br /&gt;&lt;br /&gt;
+
+Our records indicate your library account is due to expire in 30 days. Please visit, call or email your local library at your convenience to renew your account in order to avoid a disruption in access to library service. &lt;br /&gt;&lt;br /&gt;
+
+To update your account we will need to verify your address, phone number and email.  Please include this information if you're emailing us to renew your account.&lt;br /&gt;&lt;br /&gt;
+
+Sincerely,&lt;br /&gt;
+&lsqb;% lib.name %&rsqb;&lt;br /&gt;&lt;br /&gt;
+
+Contact your library for more information:&lt;br /&gt;&lt;br /&gt;
+&lsqb;% lib.name %&rsqb;&lt;br /&gt;
+&lsqb;%- SET addr = lib.mailing_address -%&rsqb;&lt;br /&gt;
+&lsqb;%- IF !addr -%&rsqb; &lsqb;%- SET addr = lib.billing_address -%&rsqb; &lsqb;%- END %&rsqb;&lt;br /&gt;
+&lsqb;% addr.street1 %&rsqb; &lsqb;% addr.street2 %&rsqb;&lt;br /&gt;
+&lsqb;% addr.city %&rsqb;, &lsqb;% addr.state %&rsqb;&lt;br /&gt;
+&lsqb;% addr.post_code %&rsqb;&lt;br /&gt;
+&lsqb;% lib.phone %&rsqb;&lt;br /&gt;
+&lsqb;% lib.email %&rsqb;&lt;br /&gt;&lt;br /&gt;
+
+If you no longer wish to receive these email notifications, you may login to your library account and change your preferences or contact your library for assistance.&lt;br /&gt;&lt;/div&gt;
 
 Cloning Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
