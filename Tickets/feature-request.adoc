@@ -15,8 +15,8 @@ for.
 . Search https://support.libraries.coop/rt/[RT] for existing tickets.
 .. Link to or merge into existing tickets as appropriate.
 . Search https://bugs.launchpad.net/evergreen[Launchpad] for existing bug/wishlist
-. If no existing bug/wishlist item, create one.
-. If there is an existing bug click *This bugs affects XX people. Does this bug affects you*. On the pop-up click 
+.. If no existing bug/wishlist item, create one.
+.. If there is an existing bug click *This bugs affects XX people. Does this bug affects you*. On the pop-up click 
 *Yes, it affects me*.
 . In RT move the ticket to the Feature Request Queue and update the ticket as follows:
 .. Add the launchpad bug # to _Launchpad Bug_ field.
