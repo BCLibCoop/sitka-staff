@@ -9,19 +9,19 @@ Feature request = a system change or enhancement requested by a Sitka Site.
 for.
 .. Email the library for clarification if required.
 . Update the ticket as follows:
-.. Include descriptive subject line.
+.. Include a descriptive subject line.
 .. Specify "Feature Request" in subject line.
 .. Add appropriate _EG-Tags_ tags.
 . Search https://support.libraries.coop/rt/[RT] for existing tickets.
 .. Link to or merge into existing tickets as appropriate.
-. Search https://bugs.launchpad.net/evergreen[Launchpad] for existing bug/wishlist
-.. If no existing bug/wishlist item, create one.
-.. If there is an existing bug click *This bugs affects XX people. Does this bug affects you*. On the pop-up click 
+. Search https://bugs.launchpad.net/evergreen[Launchpad] for an existing bug/wishlist report.
+.. If there is no existing bug/wishlist report, create one.
+.. If there is an existing bug/wishlist report click *This bugs affects XX people. Does this bug affects you*. On the pop-up click 
 *Yes, it affects me*.
-. In RT move the ticket to the Feature Request Queue and update the ticket as follows:
+. In RT move the ticket to the _Feature Request_ queue and update the ticket as follows:
 .. Add the launchpad bug # to _Launchpad Bug_ field.
 .. If indicated on Launchpad, add the _EG Release_ tag for the expected Evergreen release.
-.. Add the approriate _EG Modules_ tag.
+.. Add the appropriate _EG Modules_ tag.
 .. Add the appropriate _Bug-tags_ tag.  Most likely this will be _Waiting for Upstream Fix_ or _Community
 Fix available_.
 .. Set ticket priority
@@ -38,7 +38,8 @@ Use this text as the starting point for your response to the library:
 "Thank you for your suggestion. This has been reported as a wishlist bug to the Evergreen community and we will 
 monitor the bug report to see if anyone decides to develop or fund the development of this feature in the future."
 
-You can also include information about the status of the bug report if applicable. Such as :
+You can also include information about the status of the bug report if applicable. Such as:
++
 * There is a lot of heat for a particular bug so we are hoping to see a fix soon.
 * There bug is several years old and has no heat so unlikely to be developed anytime soon.
 * The bug includes a comment that an organization is funding development of the feature.
