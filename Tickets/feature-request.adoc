@@ -4,22 +4,47 @@ Feature Requests
 Feature request = a system change or enhancement requested by a Sitka Site.
 
 .Process
-. Ticket is received
-. Make sure request includes all necessary information, make sure we have a clear understanding of what the library is asking for - email library for clarification if required
-. Include descriptive subject line.
-. Specify "Feature Request" in subject line.
-. Add appropriate tags
-. Search RT for existing tickets - link or merge as appropriate
-. Search Launchpad for Bug or Wishlist Item -
-. If no existing bug / wishlist item, create one
-. If there is an existing bug - Select "This bug affects you"
-. Add launchpad bug # to RT Ticket
-. If indicated on Launch pad - include expected release in RT Ticket
-. Move to Feature Request Queue
-. Set ticket priority
-  .. Low = 1 library request, or obscure feature (may be related to workflow, or library process)
-  .. Medium = +1 library request, or useful feature that more sites will benefit from
-  .. High = +1 library request, Interrupts workflow, or is a bug that requires significant development to resolve.
-  .. Urgent - important or essential feature lost through upgrade
-. Email library to advise issue has been put in feature request queue
-. Include information about status (Launch pad / Sitka Development work)
+. Ticket is received from the library.
+. Make sure request includes all necessary information and that we have a clear understanding of what the library is asking 
+for.
+.. Email the library for clarification if required.
+. Update the ticket as follows:
+.. Include descriptive subject line.
+.. Specify "Feature Request" in subject line.
+.. Add appropriate _EG-Tags_ tags.
+. Search https://support.libraries.coop/rt/[RT] for existing tickets.
+.. Link to or merge into existing tickets as appropriate.
+. Search https://bugs.launchpad.net/evergreen[Launchpad] for existing bug/wishlist
+. If no existing bug/wishlist item, create one.
+. If there is an existing bug click *This bugs affects XX people. Does this bug affects you*. On the pop-up click 
+*Yes, it affects me*.
+. In RT move the ticket to the Feature Request Queue and update the ticket as follows:
+.. Add the launchpad bug # to _Launchpad Bug_ field.
+.. If indicated on Launchpad, add the _EG Release_ tag for the expected Evergreen release.
+.. Add the approriate _EG Modules_ tag.
+.. Add the appropriate _Bug-tags_ tag.  Most likely this will be _Waiting for Upstream Fix_ or _Community
+Fix available_.
+.. Set ticket priority
+  ... Low = 1 library request, or obscure feature (may be related to workflow, or library process)
+  ... Medium = +1 library request, or useful feature that more sites will benefit from
+  ... High = +1 library request, Interrupts workflow, or is a bug that requires significant development to resolve.
+  ... Urgent = important or essential feature lost through upgrade
+. Email library to advise issue has been reported to the Evergreen community.
+
+[NOTE]
+======
+Use this text as the starting point for your response to the library:
+
+"Thank you for your suggestion. This has been reported as a wishlist bug to the Evergreen community and we will 
+monitor the bug report to see if anyone decides to develop or fund the development of this feature in the future."
+
+You can also include information about the status of the bug report if applicable. Such as :
+* There is a lot of heat for a particular bug so we are hoping to see a fix soon.
+* There bug is several years old and has no heat so unlikely to be developed anytime soon.
+* The bug includes a comment that an organization is funding development of the feature.
+* A fix for the bug is available and we expect it to be included in our next upgrade, assuming we encounter no issues
+when testing.
+
+A specific timeline for getting a new feature should never be given unless we know for sure that a fix is included 
+in an upgrade or backport and we have already completed testing to ensure the feature works.
+======
