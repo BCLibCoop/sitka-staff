@@ -39,7 +39,7 @@ Use this text as the starting point for your response to the library:
 monitor the bug report to see if anyone decides to develop or fund the development of this feature in the future."
 
 You can also include information about the status of the bug report if applicable. Such as:
-+
+
 * There is a lot of heat for a particular bug so we are hoping to see a fix soon.
 * There bug is several years old and has no heat so unlikely to be developed anytime soon.
 * The bug includes a comment that an organization is funding development of the feature.
