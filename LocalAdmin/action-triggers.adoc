@@ -36,7 +36,7 @@ Editing Action Trigger Templates
 . Click *Save.*
 
 
-Update Action Trigger Templates to HTML
+Updating Action Trigger Templates to HTML
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .If the following code is included, notices will be sent as HTML:
