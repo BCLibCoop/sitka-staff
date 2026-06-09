@@ -1,7 +1,7 @@
 Hard Due Date
 -------------
 
-Academic libraries may wish to use hard due dates to truncate due dates at the end of a semester or allow particular material to go out for an entire semester. In other words, hard due dates make an item's due date either earlier or later than usual, depending on the library's requirement.
+Academic libraries may wish to use hard due dates to truncate due dates at the end of a semester or allow particular material to go out for an entire semester. Hard due dates make an item's due date either earlier or later than usual, depending on the library's requirement.
 
 Parameters for the hard due date rules are established with circulation policies (see New Hard Due Date for how to create a hard due date).
 
