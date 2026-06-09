@@ -29,17 +29,19 @@ Editing Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .Edit existing templates
-. Go to *Administration -> Local Administration -> Notification/Action Triggers.*
-. Filter to find the template that needs to be updated.
-. Select the template and click *Actions -> Edit Selected.*
-. Modify the template as needed.	
-. Click *Save.*
+. Go to *Administration -> Local Administration -> Notification/Action Triggers*
+. Filter to find the template that needs to be updated
+. Select the template and click *Actions -> Edit Selected*
+. Modify the template as needed
+. Click *Save*
 
 
 Updating Action Trigger Templates to HTML
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-By default, email notifications are plaintext. Libraries can request their email notification templates be updated to HTML, so that messages can contain formatting (e.g. bold text, links). All notifications from a given library should be in the same format (that is, all plaintext or all using HTML) for consistency. When a template is updated, its name should be changed to add *- HTML* as a suffix; for example, _ZSP - 3 Day Courtesy Notice - HTML_
+By default, email notifications are plaintext. Libraries may request their email notification templates be updated to HTML, so that messages can contain formatting (e.g. bold text, links). All notifications from a given library should be in the same format (that is, all plaintext or all using HTML) for consistency.
+
+When a template is updated, its name should be changed to add *- HTML* as a suffix; for example, _ZSP - 3 Day Courtesy Notice - HTML_
 
 .If the following code is included, notices will be sent as HTML:
 * Content-Type: text/html; charset="utf-8"
@@ -47,7 +49,7 @@ By default, email notifications are plaintext. Libraries can request their email
 .This is as oppossed to the default code which indicates the template is plaintext:
 * Content-Type: text/plain; charset="utf-8"
 
-The hyphen should not touch the text (a space before and after it, - HTML rather than -HTML), and "HTML" should be written in all caps. This way, filtering by title anything that *Contains* _HTML_ means results should retrieve all templates updated to HTML.
+The hyphen should not touch the text (a space before and after it, - HTML rather than -HTML), and "HTML" should be written in all caps. This way, filtering by title anything that *Contains* _HTML_ should retrieve all templates updated to HTML.
 
 Note that all template content must be updated to HTML, otherwise the text will not present correctly.
 
@@ -66,20 +68,17 @@ Here is a reference of https://developer.mozilla.org/en-US/docs/Web/HTML/Referen
 * &lt;img&gt; (embedded image)
 * &lt;div&gt; (container for content) 
 
-A div tag may be used to enclose the entire content of message.
-
 [TIP]
 ======
 
-Here is an example of a div tag enclosing the message content of an email notification formatted in HTML:
+*A div tag may be used to enclose the entire content of the template's message. Here is an example:*
+&nbsp;
 
 &lt;div&gt;&ast;&ast;&ast;This is an automated message.  Please do not reply to this email.&ast;&ast;&ast;&lt;br /&gt;&lt;br /&gt;
 
 Dear &lsqb;% user.pref_first_given_name || user.first_given_name %&rsqb; &lsqb;% user.pref_family_name || user.family_name %&rsqb;,&lt;br /&gt;&lt;br /&gt;
 
 Our records indicate your library account is due to expire in 30 days. Please visit, call or email your local library at your convenience to renew your account in order to avoid a disruption in access to library service. &lt;br /&gt;&lt;br /&gt;
-
-To update your account we will need to verify your address, phone number and email.  Please include this information if you're emailing us to renew your account.&lt;br /&gt;&lt;br /&gt;
 
 Sincerely,&lt;br /&gt;
 &lsqb;% lib.name %&rsqb;&lt;br /&gt;&lt;br /&gt;
@@ -99,7 +98,7 @@ If you no longer wish to receive these email notifications, you may login to you
 
 [NOTE]
 ======
-https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references[Numeric character references] must be used for some characters.
+*https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references[Numeric character references] must be used for some characters.*
 
 For example, if a library has notification templates using HTML and wants "Come to the library &amp; check out books!" to appear in a template, this is how the text should be formatted in the template:
 
@@ -112,13 +111,13 @@ Cloning Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .Clone existing templates
-. Go to *Administration -> Local Administration -> Notification/Action Triggers.*
+. Go to *Administration -> Local Administration -> Notification/Action Triggers*
 . Filter to find an existing template to copy
-. Select the template and click *Actions -> Clone Selected.*
+. Select the template and click *Actions -> Clone Selected*
 . An alert will appear *Clone event definition environment as well?* -> Click *Confirm*
-. Enter *Owning Library.*
-. Add the library short code to the *Name* field.
-. Modify the template as needed.
+. Enter *Owning Library*
+. Add the library short code to the *Name* field
+. Modify the template as needed
 . Click *Save*
 
 Naming Action Trigger Templates
@@ -199,22 +198,22 @@ The auto to lost trigger and associated email notification must be set up in a v
 Setting Up the Email Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to *Administration -> Local Administration -> Notification/Action Triggers.*
+. Go to *Administration -> Local Administration -> Notification/Action Triggers*
 . Filter to find an existing template to copy
-. Select the template and click *Actions -> Clone Selected.*
+. Select the template and click *Actions -> Clone Selected*
 . An alert will appear *Clone event definition environment as well?* -> Click *Confirm*
-. Enter *Owning Library.*
-. Add the library short code to the *Name* field.
-. Set Enabled to be un-checked.
-. Modify the template as needed, make sure the days overdue is correct for what the library wants.
+. Enter *Owning Library*
+. Add the library short code to the *Name* field
+. Set Enabled to be un-checked
+. Modify the template as needed, make sure the days overdue is correct for what the library wants
 . Click *Save*
 
 
 Setting Up the Auto to Lost Trigger
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to *Administration -> Local Administration -> Notification/Action Triggers.*
-. Click *New Event Definition*.
+. Go to *Administration -> Local Administration -> Notification/Action Triggers*
+. Click *New Event Definition*
 . Enter the following information:
 .. Owning Library: LIBRARYCODE
 .. Name: LIBRARYCODE XX Day Overdue Mark Lost
@@ -231,12 +230,12 @@ Setting Up the Auto to Lost Trigger
 .. Context Item Path: target_copy
 .. Context Library Path: circ_lib
 .. Context User Path: usr
-. Click *Save*.
+. Click *Save*
 . Find the newly created A/T -> Edit Event Definition
 . Choose Edit Paramaters tab -> Click *New Parameter*
 .. Parameter Name : editor
 .. Parameter Value : 0
-. Click *Save*.
+. Click *Save*
 
 
 Turning on Auto to Lost
@@ -246,17 +245,17 @@ When auto to lost is turned on for the very first time it will run overnight and
 to lost. This is contingent on there being no value set for _Max Event Validity Delay_ or _Retention Interval_; if values are
 present not all long overdue items will be set to lost.
 
-. Confirm that everything is correct for both the email notification and the auto to lost trigger.
-. Check the box for Enabled in the email notification.
-. Click *Save*.
-. Check the box for Enabled in the auto to lost.
-. Click *Save*.
-. The next day, open the auto to lost trigger.
+. Confirm that everything is correct for both the email notification and the auto to lost trigger
+. Check the box for Enabled in the email notification
+. Click *Save*
+. Check the box for Enabled in the auto to lost
+. Click *Save*
+. The next day, open the auto to lost trigger
 . Enter the following information:
 .. Max Event Validity Delay: Enter a value between the Processing Delay and Processing Delay + Retention 
 Interval
 .. Retention Interval: 3 mons
-. Click *Save*.
+. Click *Save*
 
 [CAUTION]
 =========
