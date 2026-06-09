@@ -21,7 +21,7 @@ When updating an existing hard due date rule, you must update the ceiling date d
 . Enter the *Ceiling Date*
 . Click *Save*
 
-NOTE: Libraries can submit all the hard due dates for the year. Use the active/ceiling date to enter all the dates for fall, winter, and summer terms.
+NOTE: Libraries *cannot* submit all the hard due dates for the year. Using the active/ceiling date to enter all the dates for fall, winter, and summer terms will not automatically roll the date over.
 
 
 New Hard Due Date
