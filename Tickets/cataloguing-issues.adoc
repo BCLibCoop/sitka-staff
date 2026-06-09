@@ -3,11 +3,11 @@ Cataloguing Issues
 
 Sitka’s Cataloguing Policy defines the standards and best practices for cataloguing within the shared Sitka catalogue to ensure that all libraries are treating bibliographic records in the same manner when they are editing, creating, or adding records.
 
+https://docs.libraries.coop/policy/_cataloguing_policy.html
+
 All staff that perform cataloguing tasks at Sitka libraries are expected to familiarize themselves with this policy and commit to uphold it as they work with records in the Sitka catalogue.
 
 The goal is to have a database of high quality bibliographic records that are shared by all libraries. Ideally there is one MARC record in the database for each discrete bibliographic title which all libraries add their holdings to. All Sitka libraries must follow the same policies when editing MARC records to ensure that records accurately describe the items that are attached to them.
-
-https://docs.libraries.coop/policy/_cataloguing_policy.html
 
 [NOTE]
 ======
@@ -17,25 +17,30 @@ There is a known bug (https://bugs.launchpad.net/evergreen/+bug/1982892[LP 19828
 Bad Cataloguing
 ~~~~~~~~~~~~~~~
 
-If we are notified of bad cataloguing, we must follow up with the offending library/cataloguer. 
+If we are notified of bad cataloguing, we must follow up with the offending library about their cataloguer. 
 
 . Ask Tina for the audit log 
 . Run SQL to find home library of the offending user - Jennifer/Christine
+. Save a copy of the improperly modified MARC (can be copied from Flat Text Editor in bib record) 
+. Review one of the non-production servers for the original record
+. Manually update the changed record to match the original record
 . Create a new ticket to notify the offending library
 .. link to original ticket (Refers to)
-.. in the message to the library, include a link to cataloguing policy
+.. in the message to the library, include links to cataloguing policy
 .. provide details about how the cataloguing policy was violated
-.. provide specific examples
-. Check one of the non-production servers for the original record
-. Manually update the changed record to match the original record
+.. share the problematic MARC
+.. explain why this specific example was a problem
+.. indicate we've made updates
+
+By saving a reference of the problematic MARC, it is a record of the problematic changes, as well as any changes which may have been made in between the time the bad edits were made and the snapshot was taken on the non-prod server (i.e. there may have been other non-problematic updates by others in that time). While sharing the problematic MARC with the library whose staff made the bad updates can help the library (so they know what not to do, as well as having a reference of any other non-problematic info that may have been added), it is also a reference for us. (If it is a situation where many records were edited this may not be feasible, but for single record issues this is not unweildy.) If we choose not to share the old problematic MARC with the library, it can also be added as a comment to a ticket for our reference.
 
 [TIP]
 ======
-_Here is suggested wording for following up with the library:_
+_Here is suggested wording for following up with the library whose staff made the bad changes:_
 
 Hello,
 
-It has been brought to our attention that (problem). These records were edited by account (user) on (date).
+It has been brought to our attention that staff at your library improperly modified a bibliogaphic record. On *(date)*, account *(user)* *(edited in problematic way)* bibliographic record *(db ID #, link to bib record)*.
 
 Sitka’s Evergreen Policy states "All staff performing cataloguing functions in Sitka’s Evergreen are expected to follow the same cataloguing standards when working with records."
 https://docs.libraries.coop/policy/_cataloguing_standards.html
@@ -45,9 +50,11 @@ https://docs.libraries.coop/policy/_editing_bibliographic_records.html
 
 Cataloguers are encouraged to correct obvious typos or otherwise enhance records, but should refrain from making changes that result in incorrect coding of a record.
 
-An example of a record that was edited in (problematic way) is (db ID #, link to record).
+This was the MARC of the problematically updated record:
 
-The (outline of problem).
+*(Flat Text MARC with bad cataloguing)*
+
+The *(outline of problem and why issue)*. To resolve these problematic changes, we have have reverted the bibliographic record to an earlier version.
 
 Please let us know if you have questions about this or if there are any related issues.
 ======
