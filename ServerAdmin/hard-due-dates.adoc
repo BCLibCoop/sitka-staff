@@ -1,16 +1,16 @@
 Hard Due Date
 -------------
 
-Academic libraries may wish to use hard due dates to truncate due dates at the end of a semester or allow particular material to go out for an entire semester. Hard due dates make an item's due date either earlier or later than usual, depending on the library's requirement.
+Academic libraries may wish to use hard due dates to truncate due dates at the end of a semester, or allow particular material to go out for an entire semester. Hard due dates make an item's due date either earlier or later than usual, depending on the library's requirement.
 
-Parameters for the hard due date rules are established with circulation policies (see New Hard Due Date for how to create a hard due date).
+Parameters for the hard due date rules are established with circulation policies (see New Hard Due Date for how to create a hard due date and set its parameters).
 
-Library staff do not have permissions to add or edit hard due date rules. See http://docs.libraries.coop/sitka/_hard_due_date.html
+Library staff do not have permissions to add or edit hard due date rules, and must send their requests to Sitka Support. See http://docs.libraries.coop/sitka/_hard_due_date.html
 
 Update Hard Due Date
 ~~~~~~~~~~~~~~~~~~~~
 
-When updating an existing hard due date rule, you must update the ceiling date display and add a new hard due date value.
+When updating an existing hard due date rule, you must update the ceiling date display and then add a new hard due date value.
 
 .Edit Ceiling Date
 . Go to *Administration -> Server Administration -> Hard Due Date Changes*
