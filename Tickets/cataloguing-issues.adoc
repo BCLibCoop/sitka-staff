@@ -12,7 +12,7 @@ https://docs.libraries.coop/policy/_cataloguing_policy.html
 Bad Cataloguing
 ~~~~~~~~~~~~~~~
 
-If we are notified of bad cataloguing we must follow up with the offending library/cataloguer. 
+If we are notified of bad cataloguing, we must follow up with the offending library/cataloguer. 
 
 . Ask Tina for audit log 
 . Run SQL to find home library of the offending user - Jennifer/Christine
@@ -29,8 +29,8 @@ Bad Record Merge
 
 If we are notified of a bad record merge
 
-. Check the lead record Record Notes tab to get the ID of records merged.
-. Ask Tina for audit log to determine what user merged the records.
+. Check the lead record Record Notes tab to get the ID of records merged
+. Ask Tina for audit log to determine what user merged the records
 . Create a new ticket to notify the offending library
 .. link to original ticket (Refers to)
 .. in the message to the library, include a link to cataloguing policy
