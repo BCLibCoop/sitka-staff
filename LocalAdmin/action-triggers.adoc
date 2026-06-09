@@ -42,8 +42,12 @@ Update Action Trigger Templates to HTML
 .If the following code is included, notices will be sent as HTML:
 * Content-Type: text/html; charset="utf-8"
 
-.This is as oppossed to the default (non-HTML) code:
+.This is as oppossed to the default code which indicates the template is plaintext:
 * Content-Type: text/plain; charset="utf-8"
+
+When the template is updated, its name should be changed to add *- HTML* as a suffix, for example, _ZSP - 3 Day Courtesy Notice - HTML_
+
+The hyphen should not touch the text (a space before and after it), and HTML should be written in all caps. This way, filtering by title anything that _Contains_ HTML means results should retrieve all templates updated to HTML.
 
 Note that all template wording must be updated to HTML, otherwise the text will not present correctly.
 
@@ -51,9 +55,7 @@ For example, line breaks need to be coded in (i.e. &lt;br /&gt;), otherwise the 
 
 Another issue is that hyperlinks will no longer automatically link unless they are updated with HTML, &lt;a href=&quot;URL&quot;&gt;linked text&lt;/a&gt;
 
-Additionally, https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references[numeric character references] must be used for some characters, e.g. if you want &lt; in the final notification, you should write &amp;lt&semi; in the template.
-
-Here also is a reference of https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements#text_content[HTML text content elements].
+Here is a reference of https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements#text_content[HTML text content elements].
 
 .Tags known to work in action triggers include:
 * &lt;a href&gt; (hyperlink)
@@ -66,7 +68,7 @@ Here also is a reference of https://developer.mozilla.org/en-US/docs/Web/HTML/Re
 
 A div tag may be used to enclose the entire content of message.
 
-[NOTE]
+[TIP]
 ======
 
 Here is an example of a div tag enclosing the message content of an email notification formatted in HTML:
@@ -95,6 +97,16 @@ Contact your library for more information:&lt;br /&gt;&lt;br /&gt;
 If you no longer wish to receive these email notifications, you may login to your library account and change your preferences or contact your library for assistance.&lt;br /&gt;&lt;/div&gt;
 ======
 
+[NOTE]
+======
+https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references[Numeric character references] must be used for some characters.
+
+For example, if a library has notification templates using HTML and wants "Come to the library &amp; check out books!" to appear in a template, this is how the text should be formatted in the template:
+
+Come to the library &amp;amp&semi; check out books!
+
+======
+
 
 Cloning Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -119,13 +131,13 @@ to be deleted.
 [options="header"]
 |===
 |Notice Type | Name Pattern
-|pre-due |XXX 3 Day Courtesy Notice
-|overdue |XXX n Day Overdue Notice 
-|overdue mark lost |XXX m Day Overdue Mark Lost 
-|hold email |XXX Hold Ready for Pickup Email Notification 
-|checkout receipt email |XXX Checkout Email Receipt
-|hold cancelled by staff |XXX Holds Cancelled by Staff Email Notice
-|shelf expired hold cancelled |XXX Shelf Expired Holds Cancelled Email Notice
+|pre-due |XXX - 3 Day Courtesy Notice
+|overdue |XXX - n Day Overdue Notice 
+|overdue mark lost |XXX - m Day Overdue Mark Lost 
+|hold email |XXX - Hold Ready for Pickup Email Notification 
+|checkout receipt email |XXX - Checkout Email Receipt
+|hold cancelled by staff |XXX - Holds Cancelled by Staff Email Notice
+|shelf expired hold cancelled |XXX - Shelf Expired Holds Cancelled Email Notice
 |===
 
 _XXX is a library's shortname, n & m are integers_
