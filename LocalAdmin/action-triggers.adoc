@@ -39,17 +39,17 @@ Editing Action Trigger Templates
 Updating Action Trigger Templates to HTML
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+By default, email notifications are plaintext. Libraries can request their email notification templates be updated to HTML, so that messages can contain formatting (e.g. bold text, links). All notifications from a given library should be in the same format (that is, all plaintext or all using HTML) for consistency. When a template is updated, its name should be changed to add *- HTML* as a suffix; for example, _ZSP - 3 Day Courtesy Notice - HTML_
+
 .If the following code is included, notices will be sent as HTML:
 * Content-Type: text/html; charset="utf-8"
 
 .This is as oppossed to the default code which indicates the template is plaintext:
 * Content-Type: text/plain; charset="utf-8"
 
-When the template is updated, its name should be changed to add *- HTML* as a suffix, for example, _ZSP - 3 Day Courtesy Notice - HTML_
+The hyphen should not touch the text (a space before and after it, - HTML rather than -HTML), and "HTML" should be written in all caps. This way, filtering by title anything that *Contains* _HTML_ means results should retrieve all templates updated to HTML.
 
-The hyphen should not touch the text (a space before and after it), and HTML should be written in all caps. This way, filtering by title anything that _Contains_ HTML means results should retrieve all templates updated to HTML.
-
-Note that all template wording must be updated to HTML, otherwise the text will not present correctly.
+Note that all template content must be updated to HTML, otherwise the text will not present correctly.
 
 For example, line breaks need to be coded in (i.e. &lt;br /&gt;), otherwise the text will be all stuck together on the same line.
 
