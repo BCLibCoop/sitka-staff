@@ -5,7 +5,7 @@ Academic libraries may wish to use hard due dates to truncate due dates at the e
 
 Parameters for the hard due date rules are established with circulation policies (see New Hard Due Date for how to create a hard due date and set its parameters).
 
-Library staff do not have permissions to add or edit hard due date rules, and must send their requests to Sitka Support. See http://docs.libraries.coop/sitka/_hard_due_date.html
+Library staff do not have permissions to add or edit hard due date rules, and must send their requests to Support. See http://docs.libraries.coop/sitka/_hard_due_date.html
 
 Update Hard Due Date
 ~~~~~~~~~~~~~~~~~~~~
