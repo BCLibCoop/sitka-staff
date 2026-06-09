@@ -9,12 +9,17 @@ The goal is to have a database of high quality bibliographic records that are sh
 
 https://docs.libraries.coop/policy/_cataloguing_policy.html
 
+[NOTE]
+======
+There is a known bug (https://bugs.launchpad.net/evergreen/+bug/1982892[LP 1982892]) where in the Record Notes tab in a bibliographic record, the value of the Creator and Editor columns is always "1" or the username of the account that has an id of "1". This means the information about the Creator or Editor of a Bib Record Note is currently incorrect and cannot be used as a reference.
+======
+
 Bad Cataloguing
 ~~~~~~~~~~~~~~~
 
 If we are notified of bad cataloguing, we must follow up with the offending library/cataloguer. 
 
-. Ask Tina for audit log 
+. Ask Tina for the audit log 
 . Run SQL to find home library of the offending user - Jennifer/Christine
 . Create a new ticket to notify the offending library
 .. link to original ticket (Refers to)
@@ -23,6 +28,29 @@ If we are notified of bad cataloguing, we must follow up with the offending libr
 .. provide specific examples
 . Check one of the non-production servers for the original record
 . Manually update the changed record to match the original record
+
+[TIP]
+======
+_Here is suggested wording for following up with the library:_
+
+Hello,
+
+It has been brought to our attention that (problem). These records were edited by account (user) on (date).
+
+Sitka’s Evergreen Policy states "All staff performing cataloguing functions in Sitka’s Evergreen are expected to follow the same cataloguing standards when working with records."
+https://docs.libraries.coop/policy/_cataloguing_standards.html
+
+"Cataloguers should be cautious when editing existing bibliographic records in the Sitka catalogue. Changes to a bibliographic record affect ALL libraries with holdings attached. In our consortium, with over 100 libraries, a single change can have a significant effect."
+https://docs.libraries.coop/policy/_editing_bibliographic_records.html
+
+Cataloguers are encouraged to correct obvious typos or otherwise enhance records, but should refrain from making changes that result in incorrect coding of a record.
+
+An example of a record that was edited in (problematic way) is (db ID #, link to record).
+
+The (outline of problem).
+
+Please let us know if you have questions about this or if there are any related issues.
+======
 
 Bad Record Merge
 ~~~~~~~~~~~~~~~~
