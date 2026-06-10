@@ -84,13 +84,13 @@ Hello,
 
 It has been brought to our attention that staff at your library improperly merged bibliogaphic records.
 
-.On *(date)*, account *(user)* merged bibliographic record *(db ID)* into the following other records:
+On *(date)*, account *(user)* merged bibliographic record *(db ID)* into the following other records:
 
-. *(db ID)*
-. *(db ID)*
-. *(db ID)*
+* (db ID)
+* (db ID)
+* (db ID)
 
-We are making changes to these records so you do not have to, but we are reaching out to prevent something like this from happening in the future as multiple libraries' holdings were impacted by these actions.
+We have restored these records (so you do not have to update them now), but we are reaching out to prevent something like this from happening in the future as multiple libraries' holdings were impacted by these actions.
 
 Sitka's Evergreen Policy states "All staff performing cataloguing functions in Sitka’s Evergreen are expected to follow the same cataloguing standards when working with records."
 https://docs.libraries.coop/policy/_cataloguing_standards.html
@@ -113,11 +113,11 @@ It has been brought to our attention that staff at another library improperly me
 
 .On *(date)*, bibliographic record *(db ID)* was merged into the following other records:
 
-. *(db ID)*
-. *(db ID)*
-. *(db ID)*
+* (db ID)
+* (db ID)
+* (db ID)
 
-We have resored the original records, but we are reaching out as you should review and transfer your holdings as needed.
+We have restored the original records, but we are reaching out as you should review and transfer your holdings as needed.
 
 Instructions for transferring holdings can be found here: https://docs.libraries.coop/sitka/_transferring_holdings.html
 
