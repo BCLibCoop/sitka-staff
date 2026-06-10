@@ -68,12 +68,12 @@ If we are notified of a bad record merge
 
 . Check the lead record Record Notes tab to get the ID of records merged
 . Ask Tina for audit log to determine which user merged the records
+. Undelete the merged records
 . Create a new ticket to notify the offending library
-.. link to original ticket (Refers to)
-.. in the message to the library, include a link to cataloguing policy
+.. link to the original ticket (Refers to)
+.. in the message to the library, include a link to cataloguing policy and mention potential issues with patron holds
 .. provide details about how the cataloguing policy was violated
 .. provide specific examples
-. Undelete the merged records
 . Create separate tickets to notify any affected libraries that they will need to transfer their holdings back to the original record 
 .. link to the original ticket (Refers to)
 .. in the message to other libraries, include link to instructions for transferring holdings and mention potential issues with patron holds
