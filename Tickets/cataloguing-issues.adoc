@@ -32,7 +32,7 @@ If we are notified of bad cataloguing, we must follow up with the offending libr
 .. explain why this specific example was a problem
 .. indicate we've made updates
 
-By saving a reference of the problematic MARC, it is a record of the problematic changes, as well as any changes which may have been made in between the time the bad edits were made and the snapshot was taken on the non-prod server (i.e. there may have been other non-problematic updates by others in that time). While sharing the problematic MARC with the library whose staff made the bad updates can help the library (so they know what not to do, as well as having a reference of any other non-problematic info that may have been added), it is also a reference for us. (If it is a situation where many records were edited this may not be feasible, but for single record issues this is not unweildy.) If we choose not to share the old problematic MARC with the library, it can also be added as a comment to a ticket for our reference.
+By saving a reference of the problematic MARC, it is a record of the problematic changes, as well as any changes which may have been made in between the time the bad edits were made and the snapshot was taken on the non-prod server (i.e. there may have been other non-problematic updates by others in that time). While sharing the problematic MARC with the library whose staff made the bad updates can help the library (so they know what not to do, as well as having a reference of any other non-problematic info that may have been added), it is also a reference for us. (If it is a situation where many records were edited this may not be feasible, but for single record issues this is not unwieldy.) If we choose not to share the old problematic MARC with the library, it can also be added as a comment to a ticket for our reference.
 
 [TIP]
 ======
@@ -40,7 +40,7 @@ _Here is suggested wording for following up with the library whose staff made th
 
 Hello,
 
-It has been brought to our attention that staff at your library improperly modified a bibliogaphic record. On *(date)*, account *(user)* *(edited in problematic way)* bibliographic record *(db ID #, link to bib record)*.
+It has been brought to our attention that staff at your library improperly modified a bibliographic record. On *(date)*, account *(user)* *(edited in problematic way)* bibliographic record *(db ID #, link to bib record)*.
 
 Sitka’s Evergreen Policy states "All staff performing cataloguing functions in Sitka’s Evergreen are expected to follow the same cataloguing standards when working with records."
 https://docs.libraries.coop/policy/_cataloguing_standards.html
@@ -55,6 +55,8 @@ This was the MARC of the problematically updated record:
 *(Flat Text MARC with bad cataloguing)*
 
 The *(outline of problem and why issue)*. To resolve these problematic changes, we have have reverted the bibliographic record to an earlier version.
+
+It is also advisable to review any holds your patrons have placed on this record: https://docs.libraries.coop/sitka/_managing_holds.html
 
 Please let us know if you have questions about this or if there are any related issues.
 ======
@@ -74,7 +76,7 @@ If we are notified of a bad record merge
 . Undelete the merged records
 . Create separate tickets to notify any affected libraries that they will need to transfer their holdings back to the original record 
 .. link to the original ticket (Refers to)
-.. in the message to other libraries, include link to instructions for transfering holdings
+.. in the message to other libraries, include link to instructions for transferring holdings
 
 [TIP]
 ======
@@ -82,7 +84,7 @@ _Here is suggested wording for following up with the library whose staff merged 
 
 Hello,
 
-It has been brought to our attention that staff at your library improperly merged bibliogaphic records.
+It has been brought to our attention that staff at your library improperly merged bibliographic records.
 
 On *(date)*, account *(user)* merged bibliographic record *(db ID)* into the following other records:
 
@@ -100,6 +102,8 @@ https://docs.libraries.coop/policy/_editing_bibliographic_records.html
 
 Before merging records, cataloguers must ensure the records are a match: https://docs.libraries.coop/policy/_the_cataloguing_workflow.html#_is_it_a_match
 
+It is also advisable to review any holds your patrons have placed on these records: https://docs.libraries.coop/sitka/_managing_holds.html
+
 Please let us know if you have questions about this or if there are any related issues.
 ======
 
@@ -109,7 +113,7 @@ _Here is suggested wording for following up with a library whose holdings were a
 
 Hello,
 
-It has been brought to our attention that staff at another library improperly merged bibliogaphic records.
+It has been brought to our attention that staff at another library improperly merged bibliographic records.
 
 On *(date)*, bibliographic record *(db ID)* was merged into the following other records:
 
@@ -122,6 +126,8 @@ We have restored the original records, but we are reaching out as you should rev
 Instructions for transferring holdings can be found here: https://docs.libraries.coop/sitka/_transferring_holdings.html
 
 If the affected items all have the same call number, they may need to be transferred individually as items (rather than holdings): https://docs.libraries.coop/sitka/_transferring_holdings.html#_transfer_item
+
+It is also advisable to review any holds your patrons have placed on these records: https://docs.libraries.coop/sitka/_managing_holds.html
 
 Please let us know if you have questions about this or if there are any related issues.
 ======
