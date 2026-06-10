@@ -17,7 +17,9 @@ There is a known bug (https://bugs.launchpad.net/evergreen/+bug/1982892[LP 19828
 Bad Cataloguing
 ~~~~~~~~~~~~~~~
 
-If we are notified of bad cataloguing, we must follow up with the offending library about their cataloguer. 
+If we are notified of bad cataloguing, we must follow up with the offending library about their cataloguer.
+
+Example situation: https://support.libraries.coop/rt/Ticket/Display.html?id=128398[RT 128398]
 
 . Ask Tina for the audit log 
 . Run SQL to find home library of the offending user - Jennifer/Christine
@@ -64,7 +66,9 @@ Please let us know if you have questions about this or if there are any related 
 Bad Record Merge
 ~~~~~~~~~~~~~~~~
 
-If we are notified of a bad record merge
+If we are notified of a bad record merge, we must follow up with the offending library about their cataloguer.
+
+Example situation: https://support.libraries.coop/rt/Ticket/Display.html?id=129147[RT 129147]
 
 . Check the lead record Record Notes tab to get the ID of records merged
 . Ask Tina for audit log to determine which user merged the records
