@@ -25,7 +25,7 @@ If we are notified of bad cataloguing, we must follow up with the offending libr
 . Review one of the non-production servers for the original record
 . Manually update the changed record to match the original record
 . Create a new ticket to notify the offending library
-.. link to original ticket (Refers to)
+.. link to the original ticket (Refers to)
 .. in the message to the library, include links to cataloguing policy
 .. provide details about how the cataloguing policy was violated
 .. share the problematic MARC
@@ -73,8 +73,8 @@ If we are notified of a bad record merge
 .. provide specific examples
 . Undelete the merged records
 . Create separate tickets to notify any affected libraries that they will need to transfer their holdings back to the original record 
-.. link to original ticket (Refers to)
-.. in message to libraries, include link to instructions for transfering holdings
+.. link to the original ticket (Refers to)
+.. in the message to other libraries, include link to instructions for transfering holdings
 
 [TIP]
 ======
@@ -111,7 +111,7 @@ Hello,
 
 It has been brought to our attention that staff at another library improperly merged bibliogaphic records.
 
-.On *(date)*, bibliographic record *(db ID)* was merged into the following other records:
+On *(date)*, bibliographic record *(db ID)* was merged into the following other records:
 
 * (db ID)
 * (db ID)
