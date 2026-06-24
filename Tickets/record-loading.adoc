@@ -10,9 +10,9 @@ Tickets with bibliographic or patron records to be loaded
 . If it's Bibliographic records = leave unassigned
 . Set ticket priority = Low
 . Add Library tag
-. Add EG-Tags
-.. Bibliographic records = Cataloguing
-.. Patron records = Patron
+. Add Sitka Record Loading tag 
+.. Bibliographic records = based on record source
+.. Patron records = Patrons
 . Add Library main RT account to Requestor
 
 Patron records will be loaded immediately
