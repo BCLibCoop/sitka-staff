@@ -216,7 +216,7 @@ Setting Up the Auto to Lost Trigger
 .. Owning Library: LIBRARYCODE
 .. Name: LIBRARYCODE XX Day Overdue Mark Lost
 .. Hook: checkout.due
-.. Enabled: leave un-checked
+.. Enabled: NO
 .. Processing Delay: XX days
 .. Processing Delay Context Field: due_date
 .. Reactor: MarkItemLost
@@ -229,8 +229,9 @@ Setting Up the Auto to Lost Trigger
 .. Context Library Path: circ_lib
 .. Context User Path: usr
 . Click *Save*
-. Find the newly created A/T -> Edit Event Definition
-. Choose Edit Paramaters tab -> Click *New Parameter*
+. Find the newly created A/T and double click on it.
+. Select the _Edit Paramaters_ tab.
+. Click the *New Parameter* button.
 .. Parameter Name : editor
 .. Parameter Value : 0
 . Click *Save*
